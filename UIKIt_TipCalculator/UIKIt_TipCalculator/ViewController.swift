@@ -23,7 +23,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        tenPresentage.setTitle("10%", for: .normal)
+        fifteenPresentage.setTitle("15%", for: .normal)
+        twentyPresentage.setTitle("20%", for: .normal)
     }
 
     
